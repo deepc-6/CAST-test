@@ -29,20 +29,3 @@ In order to run the tests execute
 ```shell
 npm test
 ```
-
-# Challenge CSS
-
-1. Add the missing CSS property for setting the inner square in the middle of the outer square.
-
-# Challenge JS
-
-2. Go to fragments folder, follow the instructions in the comments in each file and implement the code missing either for passing
-   or creating the tests.
-
-# Challenge React
-  - Create collapse component
-  - Use your collapse component to create a Dropdown Component
-
-Good Luck!
-
-
