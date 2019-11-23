@@ -1,0 +1,41 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.outer {
+  border: 1px solid #666;
+  background: #c2c2c2;
+  width: 500px;
+  height: 500px;
+  margin: 20% auto;
+
+  //missing rule?
+  position: relative;
+
+  .inner {
+    background: #d9edf7;
+    border-color: #bce8f1;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}
+
+.react-container {
+  margin: 1.25rem;
+
+  button {
+    margin-bottom: 1.25rem;
+    outline: none;
+  }
+
+  .card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    max-width: 320px;
+
+    .card-body {
+      padding: 1.25rem;
+    }
+  }
+}
